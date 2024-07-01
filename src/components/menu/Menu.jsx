@@ -3,19 +3,40 @@ import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
 
 const Manu = () => {
     const [open, setOpen] = useState(false);
+
+    const links = <>
+                
+                <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#about">About</a></li>
+                <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#skils">Skills</a></li>
+                <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#project">Project</a></li>
+                <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#contact">Contact</a></li>
+            </>
+
     return (
-        <div className="text-2xl ">
-            <div className="md:hidden" onClick={() => setOpen(!open)}>
-                { open === true ? <RxCross1 className="w-6 h-6"></RxCross1> : <RxHamburgerMenu className="w-7 h-7"></RxHamburgerMenu>}
-            </div> 
-            <ul className={`md:flex gap-6 ${open ? '':'hidden'} relative md:static`}>
-                <li><a href="#about">About</a></li>
-            {/* <li><a href="#experince">Experince</a></li> */}
-                <li><a href="#project">Project</a></li>
-                <li><a href="#contect">Contect</a></li>
-            </ul>
+        <div className="static">
+            <div className="flex gap-4 items-center">
+                <div className="flex items-center gap-6 text-xl font-semibold">
+                    <ul className="hidden sm:flex gap-6">
+                    {links}
+                    </ul>
+                    <div className="w-full">
+                        <RxHamburgerMenu className="w-5 h-5"></RxHamburgerMenu>
+                    </div>
+                </div>
+
+                <div className="md:hidden" onClick={() => setOpen(!open)}>
+                    { open === true ? 
+                    <RxCross1 className="w-6 h-6"></RxCross1> : <RxHamburgerMenu className="w-6 h-6"></RxHamburgerMenu>}
+                </div>         
+            </div>
+            {
+                open && 
+                <ul className="w-40 absolute top-full right-0 z-[1] bg-cyan-800 flex flex-col flex-wrap basis-full text-lg font-semibold gap-2 py-2 px-4">
+                {links}
+                </ul>
+
+            }
         </div>
-        
     );
 };
 

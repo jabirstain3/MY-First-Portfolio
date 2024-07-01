@@ -2,6 +2,17 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+  background-color: #e9e6e6;
+
+}
+body{
+  font-family: 'Roboto', sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color:  #ffffff;
+}
+
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
