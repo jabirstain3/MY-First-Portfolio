@@ -10,12 +10,12 @@ import Skills from './components/skills/Skills'
 
 
 function App() {
-  // const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0) mx-[3vw] sm:mx-[4vw] w-max[1440]
 
   return (
-    <div className=''>
-      <section>
-        <Navbar></Navbar> 
+    <div className='w-full relative'>
+      <section className=''>
+        <Navbar></Navbar>
       </section>
       <section id="hero">
         <Hero></Hero>  

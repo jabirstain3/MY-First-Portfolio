@@ -1,7 +1,7 @@
 
 const About = () => {
     return (
-        <div className="text-center py-10">
+        <div className="border border-black text-center py-10">
         <h1>About Section</h1>
         </div>
     );

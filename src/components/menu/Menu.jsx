@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { RxCross1, RxHamburgerMenu } from "react-icons/rx";
+import ThemeBtn from "../../sheared_components/ThemeBtn";
 
 const Manu = () => {
     const [open, setOpen] = useState(false);
@@ -19,9 +20,8 @@ const Manu = () => {
                     <ul className="hidden sm:flex gap-6">
                     {links}
                     </ul>
-                    <div className="w-full">
-                        <RxHamburgerMenu className="w-5 h-5"></RxHamburgerMenu>
-                    </div>
+                    
+                    <ThemeBtn />
                 </div>
 
                 <div className="md:hidden" onClick={() => setOpen(!open)}>
