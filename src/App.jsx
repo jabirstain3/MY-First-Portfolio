@@ -17,19 +17,19 @@ function App() {
       <section className=''>
         <Navbar></Navbar>
       </section>
-      <section id="hero">
+      <section id="hero" className='py-5 sm:py-10 md:py-14'>
         <Hero></Hero>  
       </section>
-      <section id="about">
+      <section id="about" className='py-5 md:py-8 '>
         <About></About>  
       </section>
-      <section id="skills">
+      <section id="skills" className='py-5 md:py-8 '>
         <Skills></Skills>
       </section>
-      <section id="projects">
+      <section id="projects" className='py-5 md:py-8 '>
         <Projects></Projects>
       </section>
-      <section id="contect">
+      <section id="contect" className='py-5 md:py-8 '>
         <Contact></Contact>
       </section>
       <section>
@@ -39,4 +39,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
