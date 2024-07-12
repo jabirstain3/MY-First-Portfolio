@@ -8,7 +8,7 @@ const Manu = () => {
     const links = <>
                 
                 <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#about">About</a></li>
-                <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#skils">Skills</a></li>
+                <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#skills">Skills</a></li>
                 <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#project">Project</a></li>
                 <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#contact">Contact</a></li>
             </>

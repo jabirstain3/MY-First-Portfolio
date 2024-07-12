@@ -13,23 +13,23 @@ function App() {
   // const [count, setCount] = useState(0) mx-[3vw] sm:mx-[4vw] w-max[1440]
 
   return (
-    <div className='w-full relative'>
-      <section className=''>
+    <div className='w-full '>
+      <section className='sticky top-0 z-50' >
         <Navbar></Navbar>
       </section>
       <section id="hero" className='py-5 sm:py-10 md:py-14'>
         <Hero></Hero>  
       </section>
-      <section id="about" className='py-5 md:py-8 '>
+      <section id="about" className=' py-8 sm:py-10 md:py-14'>
         <About></About>  
       </section>
-      <section id="skills" className='py-5 md:py-8 '>
+      <section id="skills" className='border py-8 sm:py-10 md:py-14'>
         <Skills></Skills>
       </section>
-      <section id="projects" className='py-5 md:py-8 '>
+      <section id="project" className='py-8 sm:py-10 md:py-14'>
         <Projects></Projects>
       </section>
-      <section id="contect" className='py-5 md:py-8 '>
+      <section id="contact" className='py-8 sm:py-10 md:py-14'>
         <Contact></Contact>
       </section>
       <section>

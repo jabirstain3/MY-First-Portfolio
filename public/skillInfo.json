@@ -1,0 +1,86 @@
+[
+    {
+        "id" : 243321,
+        "section": "Frontend",
+        "logo":"https://logospng.org/download/html-5/logo-html-5-1024.png",
+        "name" : "HTML",
+        "learned" : 45
+    },
+    {
+        "id" : 243383,
+        "section": "Frontend",
+        "logo":"https://logospng.org/download/css-3/logo-css-3-1024.png",
+        "name" : "CSS",
+        "learned" : 40
+    },
+    {
+        "id" : 243354,
+        "section": "Frontend",
+        "logo":"https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png",
+        "name" : "Tailwind",
+        "learned" : 60
+    },
+    {
+        "id" : 243325,
+        "section": "Frontend",
+        "logo":"https://www.liblogo.com/img-logo/ja438j6d0-javascript-logo-javascript-logo-vector-eps-136-86-kb-download.png",
+        "name" : "JavaScript",
+        "learned" : 50
+    },
+    {
+        "id" : 243327,
+        "section": "Frontend",
+        "logo":"https://flyclipart.com/thumb2/js-logo-react-react-js-icon-221753.png",
+        "name" : "React",
+        "learned" : 45
+    },
+    {
+        "id" : 143321,
+        "section": "Tools",
+        "logo":"http://pluspng.com/img-png/github-logo-png-github-logo-png-img-1600-1600-free-transparent-git-png-900x900.jpg",
+        "name" : "Git",
+        "learned" : 30
+    },
+    {
+        "id" : 143323,
+        "section": "Tools",
+        "logo":"https://mobilemancerblog.blob.core.windows.net/blog/2020/08/vs-code-logo-transp.png",
+        "name" : "VS Code",
+        "learned" : 20
+    },
+    {
+        "id" : 143324,
+        "section": "Tools",
+        "logo":"https://humanmade.com/tachyon/2023/04/vercel.png",
+        "name" : "Vercel",
+        "learned" : 20
+    },
+    {
+        "id" : 143325,
+        "section": "Tools",
+        "logo":"https://www.liblogo.com/img-logo/fi273f22d-firebase-logo-firebase-logo-transparent-png-stickpng.png",
+        "name" : "Firebase",
+        "learned" : 15
+    },
+    {
+        "id" : 343425,
+        "section": "Backend",
+        "logo":"https://www.liblogo.com/img-logo/no6273n057-node-js-logo-nodejs-transparent-logo-google-search.png",
+        "name" : "Node js",
+        "learned" : 15
+    },
+    {
+        "id" : 343324,
+        "section": "Backend",
+        "logo":"https://p7.hiclipart.com/preview/545/451/583/node-js-express-js-javascript-solution-stack-web-application-others.jpg",
+        "name" : "Express js",
+        "learned" : 15
+    },
+    {
+        "id" : 343365,
+        "section": "Backend",
+        "logo":"https://logospng.org/wp-content/uploads/mongodb-768x432.png",
+        "name" : "MongoDB",
+        "learned" : 10
+    }
+]
