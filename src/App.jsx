@@ -12,8 +12,8 @@ function App() {
   // const [count, setCount] = useState(0) mx-[3vw] sm:mx-[4vw] w-max[1440]
   const borderlight = 'border border-black dark:border-white rounded-xl'
   return (
-    <div className='max-w-[1440px] w-[94vw] mx-auto my-0 grid grid-cols-1 gap-4'>
-      <section className={`sticky top-0 z-50 ${borderlight}`}>
+    <div className='max-w-[1440px] w-[94vw] mx-auto my-0 grid grid-cols-1 gap-4 text-black dark:text-white'>
+      <section className={`sticky top-0 z-50 border-b border-black dark:border-white `}>
         <Navbar></Navbar>
       </section>
       <section id="hero" className={`py-5 sm:py-10 md:py-14 ${borderlight}`}>

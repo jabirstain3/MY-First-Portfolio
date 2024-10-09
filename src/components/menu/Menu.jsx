@@ -20,7 +20,6 @@ const Manu = () => {
                     <ul className="hidden sm:flex gap-6">
                     {links}
                     </ul>
-                    
                     <ThemeBtn />
                 </div>
 
