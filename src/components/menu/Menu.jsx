@@ -7,10 +7,13 @@ const Manu = () => {
 
     const links = <>
                 
-                <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#about">About</a></li>
-                <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#skills">Skills</a></li>
-                <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#project">Project</a></li>
-                <li><a className="hover:text-slate-600 hover:font-bold active:text-sky-950" href="#contact">Contact</a></li>
+                <li><a className="hover:text-[#44449b] hover:font-bold active:text-sky-950" href="#about">About</a></li>
+                <li className="sm:hidden border border-black dark:border-white"></li>
+                <li><a className="hover:text-[#44449b] hover:font-bold active:text-sky-950" href="#skills">Skills</a></li>
+                <li className="sm:hidden border border-black dark:border-white"></li>
+                <li><a className="hover:text-[#44449b] hover:font-bold active:text-sky-950" href="#project">Project</a></li>
+                <li className="sm:hidden border border-black dark:border-white"></li>
+                <li><a className="hover:text-[#44449b] hover:font-bold active:text-sky-950" href="#contact">Contact</a></li>
             </>
 
     return (
@@ -30,7 +33,7 @@ const Manu = () => {
             </div>
             {
                 open && 
-                <ul className="w-40 absolute top-full right-0 z-[1] bg-cyan-800 flex flex-col flex-wrap basis-full text-lg font-semibold gap-2 py-2 px-4">
+                <ul className="border rounded-bl-xl border-black dark:border-white w-40 absolute top-full right-0 z-[1] bg-white dark:bg-black flex flex-col flex-wrap basis-full text-lg font-semibold gap-2 py-2 px-4">
                 {links}
                 </ul>
 
