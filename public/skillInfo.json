@@ -16,28 +16,28 @@
     {
         "id" : 243354,
         "section": "Frontend",
-        "logo":"https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png",
+        "logo":"https://static-00.iconduck.com/assets.00/file-type-tailwind-icon-512x307-l0anq79h.png",
         "name" : "Tailwind",
         "learned" : 60
     },
     {
         "id" : 243325,
         "section": "Frontend",
-        "logo":"https://www.liblogo.com/img-logo/ja438j6d0-javascript-logo-javascript-logo-vector-eps-136-86-kb-download.png",
+        "logo":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Y4VPmWW2m4_V2WFYOEGYRgHaHa%26pid%3DApi&f=1&ipt=6ea839d5425351acb902ff9e8d7eaf34ce787b65b5a414f9995d4c6222427caa&ipo=images",
         "name" : "JavaScript",
         "learned" : 50
     },
     {
         "id" : 243327,
         "section": "Frontend",
-        "logo":"https://flyclipart.com/thumb2/js-logo-react-react-js-icon-221753.png",
+        "logo":"https://cdn0.iconfinder.com/data/icons/logos-brands-in-colors/128/react_color-1024.png",
         "name" : "React",
         "learned" : 45
     },
     {
         "id" : 143321,
         "section": "Tools",
-        "logo":"http://pluspng.com/img-png/github-logo-png-github-logo-png-img-1600-1600-free-transparent-git-png-900x900.jpg",
+        "logo":"https://creazilla-store.fra1.digitaloceanspaces.com/icons/3253808/git-icon-icon-md.png",
         "name" : "Git",
         "learned" : 30
     },
@@ -51,35 +51,35 @@
     {
         "id" : 143324,
         "section": "Tools",
-        "logo":"https://humanmade.com/tachyon/2023/04/vercel.png",
+        "logo":"https://creazilla-store.fra1.digitaloceanspaces.com/icons/3205024/logo-vercel-icon-md.png",
         "name" : "Vercel",
         "learned" : 20
     },
     {
         "id" : 143325,
         "section": "Tools",
-        "logo":"https://www.liblogo.com/img-logo/fi273f22d-firebase-logo-firebase-logo-transparent-png-stickpng.png",
+        "logo":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.pEBQyd9UhP495CaxiF1DNQHaHa%26pid%3DApi&f=1&ipt=2a368ff337c3b121db85f03070f70f7c369688cd9e457d6848fa9fb5cd11422c&ipo=images",
         "name" : "Firebase",
         "learned" : 15
     },
     {
         "id" : 343425,
         "section": "Backend",
-        "logo":"https://www.liblogo.com/img-logo/no6273n057-node-js-logo-nodejs-transparent-logo-google-search.png",
+        "logo":"https://download.logo.wine/logo/Node.js/Node.js-Logo.wine.png",
         "name" : "Node js",
         "learned" : 15
     },
     {
         "id" : 343324,
         "section": "Backend",
-        "logo":"https://p7.hiclipart.com/preview/545/451/583/node-js-express-js-javascript-solution-stack-web-application-others.jpg",
+        "logo":"https://www.suriainternational.com/wp-content/uploads/2021/04/expressjs-logo.png",
         "name" : "Express js",
         "learned" : 15
     },
     {
         "id" : 343365,
         "section": "Backend",
-        "logo":"https://logospng.org/wp-content/uploads/mongodb-768x432.png",
+        "logo":"https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_logo_icon_146424.png",
         "name" : "MongoDB",
         "learned" : 10
     }

@@ -23,8 +23,8 @@ const Skills = () => {
                     <div className="flex flex-col gap-4">
                         {skills.map(skill => (skill.section == "Frontend" &&
                             <div key={skill.id} className="flex justify-center items-center gap-4">
-                                <div className="w-10 flex iteam-center">
-                                    <img src={skill.logo} alt={skill.name} className="object-cover"/>
+                                <div className="w-10 h-10  flex iteam-center bg-white">
+                                    <img src={skill.logo} alt={skill.name} className="object-contain"/>
                                 </div>
                                 <div className="text-start relative">
                                     <p className="absolute">{skill.name}</p>
@@ -43,8 +43,8 @@ const Skills = () => {
                     <div className="flex flex-col gap-4">
                         {skills.map(skill => (skill.section == "Backend" &&
                             <div key={skill.id} className="flex justify-center items-center gap-4">
-                                <div className="w-10 flex iteam-center">
-                                    <img src={skill.logo} alt={skill.name} className="object-cover"/>
+                                <div className="w-10 h-10 flex iteam-center bg-white">
+                                    <img src={skill.logo} alt={skill.name} className="object-contain"/>
                                 </div>
                                 <div className="text-start relative">
                                     <p className="absolute">{skill.name}</p>
@@ -63,8 +63,8 @@ const Skills = () => {
                     <div className="flex flex-col gap-4">
                         {skills.map(skill => (skill.section == "Tools" &&
                             <div key={skill.id} className="flex justify-center items-center gap-4">
-                                <div className="w-10">
-                                    <img src={skill.logo} alt={skill.name} className="object-cover"/>
+                                <div className="w-10 h-10 flex iteam-center bg-white">
+                                    <img src={skill.logo} alt={skill.name} className="object-contain"/>
                                 </div>
                                 <div className="text-start relative">
                                     <p className="absolute">{skill.name}</p>
