@@ -1,10 +1,11 @@
 import Button from "../../sheared_components/Button";
+import portrate from "../../assets/images/undraw_responsive_re_e1nn.svg"
 
 const Hero = () => {
     return (
         <div className="w-full text-center sm:text-left px-2 sm:px-4 lg:px-10 py-10 sm:py-6 md:py-10 flex flex-col sm:flex-row-reverse gap-10 sm:gap-4 items-center">
             <div className="w-full sm:w-1/2 flex justify-center">
-                <img src="../../../src/assets/images/undraw_responsive_re_e1nn.svg" alt="" className="w-full aspect-[4/3]" />
+                <img src={portrate} alt="" className="w-full aspect-[4/3]" />
             </div>
             <div className="h-full w-full sm:w-1/2 px-2 lg:px-4">
                 <p className="text-base font-bold">Hello, I am</p>
