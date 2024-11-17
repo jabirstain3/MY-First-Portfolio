@@ -14,10 +14,10 @@ const Skills = () => {
     //     skill => console.log(skill.name, skill.id, skill.learned
     // ));
     return (
-        <div className=" border-black text-center ">
+        <div className=" border-black text-center py-10 sm:py-6 md:py-10">
             <h1 className="text-2xl sm:text-3xl font-bold mt-6">Skill & Tools</h1>
             <p className=" max-w-[780px] m-auto my-6">The skills that i use to impress the recruters</p>
-            <div className="flex flex-col sm:flex-row justify-center gap-6 lg:gap-10">
+            <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-6 lg:gap-10">
                 <div className=" flex flex-col gap-4 sm:gap-6 px-3 py-2">
                     <h2 className="text-xl sm:text-2xl font-semibold m-2">Frontend Tech</h2>
                     <div className="flex flex-col gap-4">
@@ -59,7 +59,7 @@ const Skills = () => {
                     
                 </div>
                 <div className=" flex flex-col gap-4 sm:gap-6 px-3 py-2">
-                    <h2 className="text-xl sm:text-2xl font-semibold m-2">tools</h2>
+                    <h2 className="text-xl sm:text-2xl font-semibold m-2">Tools</h2>
                     <div className="flex flex-col gap-4">
                         {skills.map(skill => (skill.section == "Tools" &&
                             <div key={skill.id} className="flex justify-center items-center gap-4">
