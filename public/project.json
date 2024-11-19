@@ -1,13 +1,13 @@
 [
     {
         "proId": 29394,
-        "name":"protent to call",
-        "descreption": "lorem",
+        "name":"ToDoS",
+        "descreption": "A todo list application for tracking your daily tasks. You can add, update, delete and set priority of your tasks also mark as complite.",
         "tech":[
-            "Html", "Javascript", "React", "Redux"
+            "Typescript", "React", "Tailwind", "Redux", "Vite", "firebase"
         ],
-        "live":"/",
-        "github": "/",
+        "live":"https://todos-ead5f.web.app/",
+        "github": "https://github.com/jabirstain3/ToDoS-frontend",
         "video": "/"
     },
     {
@@ -17,8 +17,8 @@
         "tech":[
             "Html", "Javascript", "React", "Redux"
         ],
-        "live":"/",
-        "github": "/",
+        "live":"https://github.com/jabirstain3/ToDoS-frontend",
+        "github": "https://todos-ead5f.web.app/",
         "video": "/"
     },
     {
@@ -28,8 +28,8 @@
         "tech":[
             "Html", "Javascript", "React", "Redux"
         ],
-        "live":"/",
-        "github": "/",
+        "live":"https://github.com/jabirstain3/ToDoS-frontend",
+        "github": "https://todos-ead5f.web.app/",
         "video": "/"
     }
 ]
