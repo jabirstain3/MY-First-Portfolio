@@ -5,14 +5,14 @@ const ProjectDetails = ({ proId, name, descreption, tech, live, github, video}) 
     return (
         <div className="hero">
             <div className="hero-content flex-col sm:flex-row sm:justify-start gap-8 sm:gap-6 lg:gap-10">
-                <img src="../../src/assets/images/tyche-free-website-template-1867156719.jpg" className="w-full sm:w-[50%] rounded-lg shadow-lg shadow-black" />
+                <img src="../../src/assets/images/tyche-free-website-template-1867156719.jpg" className="w-full sm:w-[50%] rounded-lg shadow-lg shadow-black dark:shadow-slate-100" />
                 <div className="sm:text-left w-full grid gap-3">
                     <h1 className="text-2xl font-semibold ">{name}</h1>
                     <p className="">{descreption}</p>
                     <div className="flex gap-4 flex-wrap justify-center sm:justify-start">
                         {
                             tech.map((tech) =>
-                                <button className="bg-stone-200 dark:bg-gray-900 rounded-2xl sm:rounded-3xl px-3 py-1 sm:px-5 sm:py-2 font-medium sm:text-lg">{tech}</button>
+                                <button className="bg-[#f2f2f2] dark:bg-[#0a0a0a] px-3 py-1 font-medium sm:text-lg">{tech}</button>
                             )
                         }
                     </div>

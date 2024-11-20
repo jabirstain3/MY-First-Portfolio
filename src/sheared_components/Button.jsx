@@ -33,7 +33,7 @@ const Button = ({ Children, type, url = '',}) => {
     };
 
     return (
-        <button id={type}  onClick={() => {handelOnClick()}}  className="shadow-md shadow-slate-950 border border-black dark:border-white rounded-xl sm:rounded-2xl px-4 py-1 sm:px-6 sm:py-2 font-bold sm:text-lg hover:text-white dark:hover:text-black  hover:bg-black dark:hover:bg-white" >
+        <button id={type}  onClick={() => {handelOnClick()}}  className="shadow-md  shadow-slate-950 dark:shadow-slate-100 border border-black hover:border-white dark:border-white dark:hover:border-black rounded-xl sm:rounded-2xl px-4 py-1 sm:px-6 sm:py-2 font-bold sm:text-lg hover:text-white dark:hover:text-black  hover:bg-black dark:hover:bg-white" >
             {Children}
         </button>
     );
