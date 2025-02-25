@@ -2,7 +2,7 @@
     {
         "proId": 29394,
         "name":"ToDoS",
-        "thumbnail":"../../src/assets/images/flexSquad_thumbnail.jpeg",
+        "thumbnail":"../assets/thumbnails/carbuddy.png",
         "descreption": "A todo list application for tracking your daily tasks. You can add, update, delete and set priority of your tasks also mark as complite.",
         "tech":[
             "Typescript", "React", "Tailwind", "Redux", "Vite", "firebase"
