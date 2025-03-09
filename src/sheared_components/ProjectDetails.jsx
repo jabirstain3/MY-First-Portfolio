@@ -6,7 +6,7 @@ const ProjectDetails = ({ name, thumbnail, descreption, tech, live, github}) => 
     return (
         <div className=" rounded-xl w-full lg:w-11/12 m-auto bg-[#f2f2f2] dark:bg-[#0a0a0a]" >
             <div className="hero-content w-full flex-col sm:flex-row sm:justify-start gap-8 sm:gap-4 lg:gap-10">
-                <ImageSeroll image={thumbnail}/>
+                <ImageSeroll key={name} image={thumbnail}/>
 
                 <div className="pl-4 sm:pl-0 text-left w-full grid gap-3">
                     <h1 className="text-2xl font-semibold ">{name}</h1>

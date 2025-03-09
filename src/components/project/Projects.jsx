@@ -9,7 +9,7 @@ const Projects = () => {
             .then(res => res.json())
             .then(data => setProjects(data))
     }, [] )
-    console.log(projects);
+    // console.log(projects);
 
     return (
         <div className="text-center py-10 sm:py-6 md:py-10">

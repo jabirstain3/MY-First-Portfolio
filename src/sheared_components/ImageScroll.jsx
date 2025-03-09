@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const ImageSeroll = ( image ) => {
+const ImageSeroll = ( {image} ) => {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
