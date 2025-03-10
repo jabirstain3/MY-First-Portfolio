@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const ImageSeroll = ( {image} ) => {
+const ImageScroll = ( { image } ) => {
     const [isHovered, setIsHovered] = useState(false);
 
     return (
@@ -11,4 +11,4 @@ const ImageSeroll = ( {image} ) => {
 };
 
 
-export default ImageSeroll;
+export default ImageScroll;

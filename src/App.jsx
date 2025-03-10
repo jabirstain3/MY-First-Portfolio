@@ -9,7 +9,6 @@ import Skills from './components/skills/Skills'
 
 
 function App() {
-  // const [count, setCount] = useState(0) mx-[3vw] sm:mx-[4vw] w-max[1440]
   const borderlight = 'border border-black dark:border-white rounded-xl'
   return (
     <div className='max-w-[1440px] w-[94vw] mx-auto my-0 grid grid-cols-1 gap-4 text-black dark:text-white'>
