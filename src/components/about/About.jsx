@@ -3,7 +3,7 @@ import Button from "../../sheared_components/Button";
 const About = () => {
     return (
         <div className="text-center px-2 sm:px-4 py-10 sm:py-6 md:py-10 ">
-            <h1 className="text-2xl sm:text-3xl font-bold mt-4 sm:mt-7">Who am I</h1>
+            <h1 className="text-2xl md:text-4xl font-extrabold mt-4 sm:mt-7">Who am I</h1>
             <div className="my-6 max-w-[780px] mx-auto">
                 <p><strong >Your idea should be online if you want it to grow as a business.</strong></p>
                 <p className="my-3">My approach  is all about collaborating your vision with my experience and knowledge of frontend technologies like React.js and next.js to craft a solution. Being unique will enhance your brand and solve the problem of audience engagement. If needed I can also take on the challenge of a full-stack project, as I have got a solid foundation in MERN stack.</p>
