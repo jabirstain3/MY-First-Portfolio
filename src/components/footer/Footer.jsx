@@ -2,9 +2,8 @@
 
 const Footer = () => {
     return (
-        <div className="text-center border border-black py-6 ">
-            <h1>Footer Section</h1>
-            
+        <div className="text-center border-t border-black dark:border-white py-3 ">
+            <h1> Developed By Al Jabir</h1>
         </div>
     );
 };

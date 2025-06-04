@@ -1,57 +1,62 @@
 import Button from "../sheared_components/Button";
 import ImageScroll from "./ImageScroll";
 import carbuddy from "../../src/assets/thumbnails/carbuddy.png";
+import equisports from "../../src/assets/thumbnails/equisports.png";
 
 const ProjectDetails = () => { 
     const projectCollection = [
         {
-            "proId": 29394,
-            "name":"ToDoS",
-            "thumbnail":carbuddy,
-            "descreption": "A todo list application for tracking your daily tasks. You can add, update, delete and set priority of your tasks also mark as complite.",
-            "tech":[
-                "Typescript", "React", "Tailwind", "Redux", "Vite", "firebase"
-            ],
-            "live":"https://todos-ead5f.web.app/",
-            "github": "https://github.com/jabirstain3/ToDoS-frontend",
-            "video": "/"
-        },
-        {
+            "thumbnail": carbuddy,
             "proId": 29334,
-            "name":"protent to call",
-            "thumbnail":carbuddy,
-            "descreption": "lorem",
+            "name":"CAREBUDDY",
+            "descreption": "A car rental reservation platform that offers use a smooth experience for browsing, booking, and managing cars while providing administrators with tools to manage inventory and reservations.",
             "tech":[
-                "Html", "Javascript", "React", "Redux"
+                "TypeScript", "Vite", "React", "Redux", "DaisyUI", "Tailwind CSS",
             ],
+            "status": "Under Development",
+            "base": "Frontend",
             "live":"https://github.com/jabirstain3/ToDoS-frontend",
             "github": "https://todos-ead5f.web.app/",
             "video": "/"
         },
         {
-            "proId": 25394,
-            "name":"protent to call",
-            "thumbnail":carbuddy,
-            "descreption": "lorem",
+            "thumbnail": equisports,
+            "proId": 29335,
+            "name":"Equi Sports",
+            "descreption": "A modern e-commerce platform that offers use a smooth experience for browsing, selecting sports product while providing administrators with tools to manage inventory and orders.",
             "tech":[
-                "Html", "Javascript", "React", "Redux"
+                "JavaScript", "Vite", "React", "Firebase", "ZenUI", "Tailwind CSS",
             ],
-            "live":"https://github.com/jabirstain3/ToDoS-frontend",
-            "github": "https://todos-ead5f.web.app/",
+            "status": "Under Development",
+            "base": "Frontend",
+            "live":"https://github.com/jabirstain3/equi_sports",
+            "github": "https://equisports-13522.web.app/",
             "video": "/"
-        }
+        },
     ];
 
     return (
-        <div className="grid gap-2 sm:gap-4 lg:gap-8">
+        <div className="grid gap-2 sm:gap-4 lg:gap-8 mx-2">
             { projectCollection.map(( project) =>
-                <div key={project.proId} className=" rounded-xl w-full lg:w-11/12 m-auto bg-[#f2f2f2] dark:bg-[#0a0a0a]" >
+                <div key={project.proId} className=" rounded-xl w-full lg:w-11/12 m-auto  bg-[#f2f2f2] dark:bg-[#0a0a0a]" >
                     <div className="hero-content w-full flex-col sm:flex-row sm:justify-start gap-8 sm:gap-4 lg:gap-10">
-                        <ImageScroll key={project.proId} image={project.thumbnail}/>
+                        {project.base === "Frontend" ? (
+                            <ImageScroll key={project.proId} image={project.thumbnail}/>
+                            ) : (
+                            <div className="w-full aspect-video overflow-hidden">
+                                <img src={project.thumbnail} alt={project.name} className="w-full h-full rounded-xl bg-cover" />
+                            </div>
+                            )
+                        }
 
                         <div className="pl-4 sm:pl-0 text-left w-full grid gap-3">
-                            <h1 className="text-2xl font-semibold ">{project.name}</h1>
+                            <h1 className="text-2xl font-semibold ">{project.name}<span className="text-lg text-gray-600 font-medium"> ({project.base})</span></h1>
                             <p className="">{project.descreption}</p>
+
+                            {project.status !=="compleate" && (
+                                <p className="text-gray-500 font-semibold">Status: {project.status}</p>
+                            )}
+
                             <div className="flex gap-4 flex-wrap justify-start">
                                 {
                                     project.tech.map(( tech, index ) =>
@@ -59,9 +64,10 @@ const ProjectDetails = () => {
                                     )
                                 }
                             </div>
+
                             <div className="flex gap-4 justify-start py-3">
-                            <Button Children={"live"} type={"link"} url={project.live}></Button>
-                            <Button Children={"Github"} type={"link"} url={project.github}></Button>
+                                <Button Children={"live"} type={"link"} url={project.live}></Button>
+                                <Button Children={"Github"} type={"link"} url={project.github}></Button>
                             </div>
                         </div>
                     </div>

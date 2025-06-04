@@ -13,6 +13,23 @@ const Skills = () => {
         <div className=" border-black text-center py-10 sm:py-6 md:py-10">
             <h1 className="text-2xl md:text-4xl font-extrabold mt-6">Skill & Tools</h1>
             <p className=" max-w-[780px] m-auto my-6">The skills that i use to impress the recruters</p>
+            <div className="flex justify-center items-center pb-6">
+                <div className=" flex flex-col gap-4 sm:gap-6 px-3 py-2">
+                    <h2 className="text-xl sm:text-2xl font-semibold m-2">Programming Language</h2>
+                    <div className="flex flex-wrap justify-center gap-4">
+                        {skills.map(skill => (skill.section == "pl" &&
+                            <div key={skill.id} className="flex justify-center items-center gap-2">
+                                <div className="w-6 h-6 flex iteam-center bg-white">
+                                    <img src={skill.logo} alt={skill.name} className="object-contain"/>
+                                </div>
+                                <div className="text-start">
+                                    <p className="">{skill.name}</p>
+                                </div>
+                            </div>
+                        ))} 
+                    </div>
+                </div>
+            </div>
             <div className="flex flex-col sm:flex-row sm:flex-wrap justify-center gap-6 lg:gap-10">
                 <div className=" flex flex-col gap-4 sm:gap-6 px-3 py-2">
                     <h2 className="text-xl sm:text-2xl font-semibold m-2">Frontend Tech</h2>

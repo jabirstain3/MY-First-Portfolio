@@ -29,7 +29,7 @@ const About = () => {
                     <div className="my-2 grid gap-2">
                         <div className="">
                             <p className=""><strong>Dishan Tech</strong></p>
-                            <p className="">Software Engineer . Part-time</p>
+                            <p className="">IT Conceltant . Part-time</p>
                             <p className=""> Aug, 2024 - Present</p>
                         </div>
                     </div>

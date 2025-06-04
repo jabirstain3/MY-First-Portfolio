@@ -13,7 +13,7 @@ const Manu = () => {
                 <li className="sm:hidden border border-black dark:border-white"></li>
                 <li><a className="hover:text-[#44449b] hover:font-bold active:text-sky-950" href="#project">Project</a></li>
                 <li className="sm:hidden border border-black dark:border-white"></li>
-                <li><a className="hover:text-[#44449b] hover:font-bold active:text-sky-950" href="#contact">Contact</a></li>
+                <li><a className="hover:text-[#44449b] hover:font-bold active:text-sky-950" href="#contacts">Contact</a></li>
             </>
 
     return (

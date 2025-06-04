@@ -1,19 +1,5 @@
 [
     {
-        "id" : 243321,
-        "section": "Frontend",
-        "logo":"https://logospng.org/download/html-5/logo-html-5-1024.png",
-        "name" : "HTML",
-        "learned" : 45
-    },
-    {
-        "id" : 243383,
-        "section": "Frontend",
-        "logo":"https://logospng.org/download/css-3/logo-css-3-1024.png",
-        "name" : "CSS",
-        "learned" : 40
-    },
-    {
         "id" : 243354,
         "section": "Frontend",
         "logo":"https://static-00.iconduck.com/assets.00/file-type-tailwind-icon-512x307-l0anq79h.png",
@@ -21,10 +7,24 @@
         "learned" : 60
     },
     {
-        "id" : 243325,
+        "id" : 243323,
         "section": "Frontend",
+        "logo":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffavtutor.com%2Fresources%2Fimages%2Fuploads%2FTypescript_logo.png&f=1&nofb=1&ipt=7bf56831ad54a2735ec81db431b2453fdd6feb3f690f8d8b048862fca1a7d522",
+        "name" : "TypeScript",
+        "learned" : 30
+    },
+    {
+        "id" : 243325,
+        "section": "pl",
         "logo":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.Y4VPmWW2m4_V2WFYOEGYRgHaHa%26pid%3DApi&f=1&ipt=6ea839d5425351acb902ff9e8d7eaf34ce787b65b5a414f9995d4c6222427caa&ipo=images",
         "name" : "JavaScript",
+        "learned" : 50
+    },
+    {
+        "id" : 243326,
+        "section": "pl",
+        "logo":"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ffreepnglogo.com%2Fimages%2Fall_img%2Fc-logo-a2fa.png&f=1&ipt=ceb8e80d6a895e82ea467f9f8124e10e09de627e1c21eb96279f108e761ae1c6",
+        "name" : "C++",
         "learned" : 50
     },
     {
