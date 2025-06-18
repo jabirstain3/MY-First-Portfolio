@@ -19,7 +19,7 @@ const Button = ({ Children, type, url = '',}) => {
             case 'download CV':
                 // console.log(type);
                 const link = document.createElement("a");
-                link.href = "Profile.pdf";
+                link.href = "/public/Profile.pdf";
                 link.download = "Al_Jabir_Bin_Hasan.pdf";
                 document.body.appendChild(link);
                 link.click();

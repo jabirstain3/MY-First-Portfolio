@@ -15,8 +15,8 @@ const ProjectDetails = () => {
             ],
             "status": "Under Development",
             "base": "Frontend",
-            "live":"https://github.com/jabirstain3/ToDoS-frontend",
-            "github": "https://todos-ead5f.web.app/",
+            "live":"https://carbuddy.vercel.app/",
+            "github": "https://github.com/jabirstain3/carbuddy",
             "video": "/"
         },
         {
@@ -29,8 +29,8 @@ const ProjectDetails = () => {
             ],
             "status": "Under Development",
             "base": "Frontend",
-            "live":"https://github.com/jabirstain3/equi_sports",
-            "github": "https://equisports-13522.web.app/",
+            "live": "https://equisports-13522.web.app/",
+            "github": "https://github.com/jabirstain3/equi_sports",
             "video": "/"
         },
     ];
